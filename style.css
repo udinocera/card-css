@@ -2,9 +2,7 @@
     max-width: 350px;
     background-color: #fff;
     font-family:'Times New Roman', Times, serif;
-    border: 1px solid gray
-   
-    
+    border: 1px solid gray; 
   }
 
 .immagine{
@@ -14,11 +12,17 @@
 }
 
 .corpo-card{
+    padding: 0px 5px;
+    margin-top: 0px;
     text-align: initial;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid gray;
-    padding: 0 10px;
+    border: 1px solid gray;  
 
+}
+
+.gruppo-lista{
+padding: 0px;
+margin: 0px;
 }
 
 h3 {
@@ -44,11 +48,14 @@ li {
 .link-card {
     padding: 20px;
     border: 1px solid gray;
+    display: flex;
+    
 }
 
+
 a {
-    padding:10px;
     color:deepskyblue;
+    margin-right: 15px;
 }
 
 
